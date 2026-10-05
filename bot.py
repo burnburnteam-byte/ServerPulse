@@ -4,9 +4,9 @@ import discord
 from discord import app_commands
 from python_aternos import Client
 
-DISCORD_TOKEN = os.environ["MTU1NjMzMzU2MjU1MzE3MjA4MQ.GGxenj.QjA42BCmwf4kzOIvu44vB1dajqnbUx5uRJluMU"]
-ATERNOS_USER = os.environ["SGDP27"]
-ATERNOS_PASS = os.environ["SGDPmc"]
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
+ATERNOS_USER = os.environ["ATERNOS_USER"]
+ATERNOS_PASS = os.environ["ATERNOS_PASS"]
 ROLE_ID = int(os.environ.get("ALLOWED_ROLE_ID", "0"))  # 0 = tout le monde
 ATERNOS_SESSION = os.environ.get("ATERNOS_SESSION")     # optionnel (cookie)
 
